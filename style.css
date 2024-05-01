@@ -8,14 +8,14 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body {
-  background: #7f5b5b;
+  background: linear-gradient(#ad5389,#3c1053);
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 h1 {
-  color: #6d0101;
+  color: rgb(253, 174, 246);
   text-align: center;
   margin: 2rem;
   font-size: 3rem;
@@ -36,11 +36,11 @@ h1 {
   gap: 2vh;
 }
 .box {
-  color: rgb(75, 11, 11);
+  color: rgb(159, 0, 145);
   font-size: 4rem;
   border-radius: 10px;
-  background: #ae8d8d;
-  box-shadow: 0 0 1rem rgb(75, 11, 11);
+  background: linear-gradient(#f4c4f3,#fc67fa);
+  box-shadow: 0 0 1rem rgb(66, 34, 34);
   cursor: pointer;
 }
 .box:hover{
@@ -50,7 +50,7 @@ h1 {
 .btn{
   margin-top: 2rem;
   padding: 1rem 4rem;
-  background: #6d0101;
+  background:  linear-gradient(#ff0084,#33001b);;
   color: white;
   border-radius: 0.5rem;
   font-size: 1.5rem;
